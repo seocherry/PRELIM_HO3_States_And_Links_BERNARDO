@@ -1,0 +1,67 @@
+/* App.css */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar {
+  background: #333;
+  padding: 10px;
+  text-align: center;
+}
+
+.navbar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.navbar ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+.navbar ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.todo-list {
+  list-style: none;
+  padding: 0;
+}
+
+.todo-item {
+  background: #fff;
+  padding: 10px;
+  margin: 5px 0;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.delete-btn {
+  background: red;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.delete-btn:hover {
+  background: darkred;
+}
